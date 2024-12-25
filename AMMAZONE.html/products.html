@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+           
+        }
+        header,nav,footer{
+        width: 100%;
+            background-color:#492460b1; 
+          padding:1%;
+          font-size: 30px;
+          text-align: center;
+        }
+
+        nav a{
+          
+  width: 40%;
+            letter-spacing: 5px;
+color: rgb(255, 142, 142);
+margin: 0 25px;
+text-decoration: none;
+font-size: 40px;
+transition: .5s;
+-webkit-text-stroke-width: 2px;
+/* -webkit-text-stroke-color: rgba(45, 20, 21, 0.679); */
+        }
+
+        #products{
+            height: 50%;
+            width: 100%;
+            /* background-color: red; */
+             display: flex; 
+            padding: 20px;
+            margin: 0%;
+            text-align: center;
+            justify-content: center;
+        }
+        #product1{
+            height: 80%;
+            width: 50%;
+             background-color: rgb(83, 83, 108); 
+             padding: 15px;
+             margin: 15px;
+             text-align: center;
+             border-radius: 10px;
+        }
+        #product2{
+            height: 80%;
+            width: 50%;
+            background-color: rgb(83, 83, 108); 
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+        #product img{
+            width: 100%;
+            height: auto;
+        }
+#product h2{
+    margin: 10px 0;
+}
+.button{
+    padding: 8px 16px;
+            color: #fff;
+            background-color: #333;
+            text-decoration: none;
+}
+.button :hover{
+    background-color: #1c0505;
+    font-size: 50px;
+}
+#items{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+     justify-content: center; 
+     text-align: center;
+     padding: 20px;
+}
+#product3{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(83, 83, 108); 
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+margin: 15px;
+}
+#product4{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(83, 83, 108); 
+  border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+margin: 15px;
+}
+nav  :hover{
+    font-size: 45px;
+    background-color: rgba(179, 92, 176, 0.155);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <span> <img src="AMMA.jpeg" alt="img" style="height: 100px; width: 30%; transform: translate(0%,30%);"></span>
+        <h1>ΛMMΛ-ZӨПΣ</h1>
+       
+       
+    </header>
+
+    <nav>
+        <a href="main.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="details.html">Contact </a>
+    </nav>
+    <div id="products">
+       <div id="product1">
+        <h2>wheat</h2>
+        <img src="wheat.jpeg" alt="product1" height="150" width="210">
+        <p >$19.99</p>
+        <button onclick="location.href='details.html'" class="button" >Buy now</button>
+    </div>
+       <div id="product2">
+        <h2>rice</h2>
+        <img src="rice.jpg" alt="product2" height="150" width="210">
+       <p>$23.99</p>
+       <button onclick="location.href='details.html'" class="button" >Buy now</button>
+       </div>
+       
+
+    </div>
+    <div id="items">
+        <div id="product3">
+            <h2>bread</h2>
+            <img src="bread.jpeg" alt="product3" height="150" width="210">
+            <p>$13.99</p>
+            <button onclick="location.href='details.html'" class="button" >Buy now</button>
+        </div>
+        <div id="product4">
+            <h2>oil</h2>
+            <img src="gap.jpeg" alt="product4" height="150" width="210">
+            <p>$17.99</p>
+            <button onclick="location.href='cloths.html'" class="button" >Buy now</button>
+        </div>
+
+
+        </div>
+
+    
+    <footer>
+        <p style=" font-size: 20px;">&copy; 2023 Amma-Zone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
